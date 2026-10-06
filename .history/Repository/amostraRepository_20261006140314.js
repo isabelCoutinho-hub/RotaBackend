@@ -1,0 +1,3 @@
+const amostras = [];
+
+eort function
