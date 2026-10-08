@@ -9,9 +9,13 @@ export function listar(indice){
 }
 
 export function buscarPorIndice(indice){
-    amostras[indice] = amostra;
+    return amostras[indice];
 }
 
-export function exlcuir(indice){
+export function excluir(indice){
     amostras.splice(indice, 1);
+}
+
+export function atualizar(indice, amostra){
+    amostras[indice] = amostra;
 }
